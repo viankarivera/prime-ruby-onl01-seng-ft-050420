@@ -1,10 +1,10 @@
 # Add  code here!
-def prime?(value)
-  if value <= 1 || value == 0 || value == 1
+def prime?(number)
+  if number <= 1 || number == 0 || number == 1
     return false
   elsif
-    (2..value - 1).each do |i|
-      if value % i == 0
+    (2..number - 1).each do |i|
+      if number % i == 0
       return false
     end
   end
